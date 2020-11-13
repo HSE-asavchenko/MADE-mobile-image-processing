@@ -11,7 +11,8 @@ if __name__ == '__main__':
             input_arrays = ['input_1'],
             input_shapes={'input_1':[1,224,224,3]},
             #input_shapes={'input_1':[1,300,300,3]},
-            output_arrays = ['dense_1/Softmax','event_fc/BiasAdd'] 
+            #output_arrays = ['dense_1/Softmax','event_fc/BiasAdd'] #for places_event_mobilenet2_alpha=1.0_augm_ft_sgd_model, 
+            output_arrays = ['dense_1/Softmax'] #for mobilenet_v2_1.0_pruning_grad_25percent_model_ft
         )
         #converter.optimizations = [tf.lite.Optimize.DEFAULT]
         tflite_model = converter.convert()
