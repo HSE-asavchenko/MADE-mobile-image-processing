@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="action_OpenGallery">Open Image File</string>
+    <string name="action_magic">Enhance document</string>
+    <string name="action_GrayScale">To grayscale</string>
+    <string name="action_adaptiveBinarization">Adaptive binarization</string>
+    <string name="action_OtsuBinary">Otsu binarization</string>
+    <string name="action_EqualizeHisto">Equalize Histogram</string>
+    <string name="action_Bilaterial">Filtering</string>
+    <string name="action_Gamma">Gamma correction</string>
+    <string name="action_Contrast">Contrast enhancement</string>
+    <string name="action_Transform">Transform</string>
+    <string name="action_AutoTransform">Automatic Transform</string>
+    <string name="action_Undo">Undo</string>
+    <string name="action_upsize">Up image size</string>
+    <string name="action_down">Down image size</string>
+
+</resources>

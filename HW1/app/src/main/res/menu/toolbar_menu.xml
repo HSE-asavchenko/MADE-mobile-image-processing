@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_openGallery"
+        app:showAsAction="never"
+        android:title="@string/action_OpenGallery"/>
+    <item
+        android:id="@+id/action_enhanced"
+        app:showAsAction="never"
+        android:title="@string/action_magic"/>
+    <item
+        android:id="@+id/action_upsize"
+        app:showAsAction="never"
+        android:title="@string/action_upsize"/>
+    <item
+        android:id="@+id/action_downsize"
+        app:showAsAction="never"
+        android:title="@string/action_down"/>
+    <item
+        android:id="@+id/action_grayscale"
+        app:showAsAction="never"
+        android:title="@string/action_GrayScale"/>
+    <item
+        android:id="@+id/action_adaptiveBinary"
+        app:showAsAction="never"
+        android:title="@string/action_adaptiveBinarization"/>
+    <item
+        android:id="@+id/action_otsuBinary"
+        app:showAsAction="never"
+        android:title="Otsu binarization"/>
+    <item
+        android:id="@+id/action_contrast"
+        app:showAsAction="never"
+        android:title="@string/action_Contrast"/>
+    <item
+        android:id="@+id/action_gamma"
+        app:showAsAction="never"
+        android:title="@string/action_Gamma"/>
+    <item
+        android:id="@+id/action_equalizehisto"
+        app:showAsAction="never"
+        android:title="@string/action_EqualizeHisto"/>
+    <item
+        android:id="@+id/action_filtering"
+        app:showAsAction="never"
+        android:title="Bilaterial filtration"/>
+    <item
+        android:id="@+id/action_transform"
+        app:showAsAction="never"
+        android:title="Transformation"/>
+    <item
+        android:id="@+id/action_autotransform"
+        app:showAsAction="never"
+        android:title="Automtic Transformation"/>
+    <item
+        android:id="@+id/action_undo"
+        app:showAsAction="never"
+        android:title="Undo"/>
+
+</menu>
